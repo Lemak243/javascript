@@ -1,7 +1,7 @@
 const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
 const result = document.getElementById("result");
-const key = "e041aabfca659c157791cbe754bd968d";
+const key = "xxxxx";
 
 let search = "";
 let movies = [];
