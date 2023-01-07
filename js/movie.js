@@ -11,7 +11,7 @@ let clesKey;
 let resultat;
 
 const fetchMovies = async () =>{
-    movies = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${key}&language=fr&append_to_response=videos,images&query=${search}`).then((res) => res.json());
+    movies = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=e041aabfca659c157791cbe754bd968d&language=fr&query=${search}`).then((res) => res.json());
     clesId = movies.results.map((yves) => yves.id);
 
     for(let yves of clesId){
